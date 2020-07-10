@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lacquer&family=Lato&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -14,6 +14,23 @@ body{
   left: 0px;
   top: 0px;
   background-image: url(img/Rectangle3.png);
+}
+.navbar .rectangle{
+  position: absolute;
+  width: 100%;
+  height: 948px;
+  left: 0px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.86);
+}
+.navbar .elipse{
+  position: absolute;
+  width: 375px;
+  height: 375px;
+  right: 127px;
+  top: 279px;
+
+  background: url(img/Ellipse1.png);
 }
 .navbar h1{
   position: absolute;
@@ -31,4 +48,122 @@ body{
   /* identical to box height, or 98px */
 
   color: #FFFFFF;
+}
+.navbar ul{
+  float: right;
+  margin-right: 32px;
+  margin-top: 35px;
+}
+.navbar ul li{
+  list-style: none;
+  margin: 0 12px;
+  display: inline-block;
+  line-height: 80px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 6px 13px;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+  color: green;
+}
+.navbar .p1{
+  position: absolute;
+  width: 162px;
+  height: 29px;
+  left: 113px;
+  top: 272px;
+
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  /* identical to box height */
+
+  color: #FFFFFF;
+}
+.navbar h2{
+  position: absolute;
+  width: 611px;
+  height: 58px;
+  left: 113px;
+  top: 341px;
+
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+
+  /* identical to box height */
+
+  color: #FFFFFF;
+}
+.navbar .p2{
+  position: absolute;
+  width: 649px;
+  height: 148px;
+  left: 113px;
+  top: 423px;
+
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 155.2%;
+
+  /* or 37px */
+
+  color: #FFFFFF;
+}
+.button1{
+  position: absolute;
+  width: 224px;
+  height: 57px;
+  left: 113px;
+  top: 619px;
+  text-decoration: none;
+  cursor: pointer;
+
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 155.2%;
+
+  /* identical to box height, or 25px */
+
+  color: #FFFFFF;
+
+  background: #66BD90;
+  border-radius: 4px;
+}
+.button2{
+  position: absolute;
+  width: 270px;
+  height: 57px;
+  left: 353px;
+  top: 619px;
+  text-decoration: none;
+  cursor: pointer;
+  background: transparent;
+
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 155.2%;
+  color: #66BD90;
+  border: 2px solid #66BD90;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
