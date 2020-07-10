@@ -13,8 +13,7 @@ body{
   height: 948px;
   left: 0px;
   top: 0px;
-  background: #E5E5E5;
-  background-image: url(/img/Rectangle3.png);
+  background: url(img/Rectangle3.png)
 }
 .navbar h1{
   position: absolute;
