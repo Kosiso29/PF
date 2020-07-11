@@ -247,7 +247,7 @@ body{
   left: 80px;
   top: 150px;
 
-  font-family: Lato;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -271,13 +271,64 @@ body{
   left: 784px;
   top: 1246px;
 
+  background: rgba(19, 18, 28, 0.88);
   border-radius: 4px;
 }
-.columnright img{
+.columnrightText{
   position: absolute;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
+  width: 142px;
+  height: 38px;
+  left: 40px;
+  top: 64px;
+
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 38px;
+
+  color: #FFFFFF;
+}
+.columnrightElipse{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 98px;
+  top: 110px;
+
+  border: 2px solid #66BD90;
+  border-radius: 50%;
+}
+.columnrightElipse1{
+  position: absolute;
+  width: 12.26px;
+  height: 12.26px;
+  left: 101.87px;
+  top: 113.87px;
+
+  background: #66BD90;
+  border: 2px solid;
+  border-radius: 50%;
+  transform: rotate(90deg);
+}
+.columnrightDash{
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  left: 40px;
+  top: 118px;
+
+  background: #66BD90;
+}
+.Dash1{
+  left: 126px;
+}
+.columnrightTextp1{
+  width: 456px;
+  height: 416px;
+  top: 162px;
+  font-size: 23.5px;
+  line-height: 36px;
 }
 .columnright button{
   position: absolute;
